@@ -11,7 +11,7 @@
 
 :root{
     --primary : #000000;
-    --secondary : #FFD936;
+    --secondary : #eb1924;
     --white : #efefef;
 }
 
@@ -60,6 +60,8 @@ nav {
     outline: none;
     cursor: pointer;
     border-radius: 5px;
+    /*added for font legibility*/
+    font-weight: bold;
 }
 .btn-secondary{
     border: 1px solid var(--white);
