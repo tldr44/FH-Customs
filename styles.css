@@ -8,6 +8,15 @@
 
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: clip;   /* better than hidden */
+}
+
+body {
+  overscroll-behavior-x: none;
+}
+
 
 :root{
     --primary : #000000;
