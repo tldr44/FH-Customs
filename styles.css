@@ -238,16 +238,18 @@ footer .container {
     .nav-list{
         flex-direction: column;
         background-color: gray;
-        position: absolute;
+        position: fixed;
         top: 0;
-        right: -900px;
+        right: 0;
         width: 80%;
         height: 100vh;
         padding-top: 80px;
+
+        transform: translateX(100%);
         transition: all 0.3s ease;
     }
     .nav-list.active{
-        right: 0;
+        transform: translateX(0);
     }
     .nav-list li:not(:last-child){
         text-align: left;
