@@ -8,11 +8,12 @@
 
 }
 
+/*prevents scrolling side*/
 html, body {
   max-width: 100%;
   overflow-x: clip;   /* better than hidden */
 }
-
+/*prevents scrolling side*/
 body {
   overscroll-behavior-x: none;
 }
@@ -32,9 +33,10 @@ body {
 #main{
     background-image: url(./img/main.png);
     /*MODIFY (to change main content image to "nav"/ header look: */
-    min-height: 70vh;
+    min-height: 45vh;
     background-position: bottom center;
-    background-size: cover;
+    background-size: center;
+
 
 }
 a{
